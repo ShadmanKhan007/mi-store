@@ -10,6 +10,9 @@ import Heading from './components/Heading';
 import StarProduct from './components/StarProduct';
 import HotAccessoriesMenu  from "./components/HotAccessoriesMenu.jsx"
 import HotAccessories from "./components/HotAccessories.jsx"
+import ProductReviews from './components/ProductReviews';
+import Videos from "./components/Videos.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -45,6 +48,20 @@ function App() {
        <HotAccessories mobileAccessories={data.hotAccessories.mobileAccessories} mobileAccessoriesCover={data.hotAccessoriesCover.mobileAccessories}  />
        </Route>
 
+       <Heading text="PRODUCT REVIEWS"  />
+     
+
+       <ProductReviews productReviews={data.productReviews}/>
+
+       <Heading text="VIDEOS" />
+       
+       <Videos videos={data.videos} />
+
+       <Heading  text="IN THE PRESS"/>
+   
+       <Banner  banner={data.banner}/>
+
+       <Footer footer={data.footer} />
 
     </Router>
     </div>
