@@ -19,7 +19,7 @@ const NavOptios = ( {miPhones,redmiPhones,tv,laptop,fitnessAndLifeStyle,home,aud
 
    useEffect(() => {
      
-    if(window.location.pathname === "/#miphones"){
+    if(window.location.pathname === "/miphones"){
         return   setMiPhoneToggle(true)
        }
      if(window.location.pathname === "/#redmiphones"){
