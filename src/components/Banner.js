@@ -32,4 +32,4 @@ alt={`${index} banner`}
     )
 }
 
-export default Banner;
+export default Banner

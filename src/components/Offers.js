@@ -1,5 +1,5 @@
 import React from 'react'
-import Offer from "./Offer.jsx"
+import Offer from "./Offer.js"
 import "../styles/Offers.css"
 
 

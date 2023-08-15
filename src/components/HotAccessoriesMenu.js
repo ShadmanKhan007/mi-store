@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 import "../styles/HotAccessoriesMenu.css"
 
 const HotAccessoriesMenu = () => {
@@ -15,4 +15,4 @@ const HotAccessoriesMenu = () => {
     )
 }
 
-export default HotAccessoriesMenu;
+export default HotAccessoriesMenu
