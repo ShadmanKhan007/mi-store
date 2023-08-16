@@ -33,3 +33,11 @@
         color: white;
         margin: 1vmax;
     }
+
+
+
+    @media screen and (max-width: 767px) {
+        .videoCard{
+            height:30vh;
+        }
+    }

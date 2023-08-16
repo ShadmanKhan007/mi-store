@@ -39,3 +39,24 @@
 .preNav > div > a:hover{
     color: white;
 }
+
+
+
+
+@media screen and (max-width: 767px) {
+    .preNav{
+        display:grid;
+        grid-template-columns: 4fr 2fr;
+       
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .preNav{
+        display:grid;
+        grid-template-columns: 4fr 3fr;
+       
+    }
+}
+
+

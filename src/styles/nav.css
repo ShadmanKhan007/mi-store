@@ -66,3 +66,31 @@
   .searchbox > svg{
     fill: rgb(61, 61, 61);
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .logo{
+        width: 46px;
+        height: 50px;
+    }
+
+    #logoImage{
+        transition:all 0.2s;
+        transform: translateX(-62px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo{
+        width: 36px;
+        height: 40px;
+    }
+
+    #logoImage{
+        transition:all 0.2s;
+        transform: translateX(-52px);
+        width: 100px;
+        height: 40px;
+    }
+}

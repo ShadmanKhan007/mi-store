@@ -28,3 +28,7 @@
     font-size: 1vmax;
     color: orangered;
 }
+
+.ProductReviewCard  img {
+    width: 100%;
+}

@@ -107,3 +107,15 @@ fill: rgb(34, 34, 34);
     fill: rgb(94, 94, 94);
   }
   
+
+  @media screen and (max-width: 767px) {
+    .PreFooter2{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 5%;
+      gap: 20px;
+    }
+
+      
+  
+  }

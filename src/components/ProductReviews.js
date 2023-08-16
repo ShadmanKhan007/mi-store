@@ -8,7 +8,7 @@ const ProductReviews = ({productReviews}) => {
            
         {productReviews.map((item,index)=>(
 
-<ProductReviewCard price={item.price} name={item.name} image={item.image} review={item.review} index={index} key={item.image} />
+   <ProductReviewCard price={item.price} name={item.name} image={item.image} review={item.review} index={index} key={item.image} />
 
 
         ))}

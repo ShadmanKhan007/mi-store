@@ -13,3 +13,18 @@
 .offersSection   img:hover{
     box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
   }
+
+  @media screen and (max-width: 1024px)  {
+    .offersSection   img{
+      width: 100%;
+      padding: 10px 10px
+    }
+  }
+
+
+  @media screen and (max-width: 1366px)  {
+    .offersSection   img{
+      width: 100%;
+      padding: 10px 10px
+    }
+  }

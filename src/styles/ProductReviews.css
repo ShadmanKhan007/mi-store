@@ -5,3 +5,21 @@
     margin: auto;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 1366px) {
+    .ProductReviews{
+       
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .ProductReviews{
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+    }
+}

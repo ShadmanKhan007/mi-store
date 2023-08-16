@@ -18,3 +18,70 @@
 .starProduct img:hover{
     box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
 }
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+    .starProduct{
+        margin-left: 5%;
+    }
+
+    .starProduct>div:last-child{ 
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+    }
+
+    .starProduct-1 img {
+        height: 520px;
+        width: 100%;
+    }
+
+    .starProduct-2 img {
+        width: 90%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .starProduct{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+    }  
+}
+
+
+
+@media screen and (max-width: 767px) { 
+
+
+    .starProduct-1 img {
+        height: 400px;
+        width: 137%;
+        margin-left: -18%;
+    }
+
+
+}
+@media screen and (max-width: 643px) { 
+
+
+    .starProduct-1 img {
+        height: 360px;
+        width: 100%;
+        margin-left: -5%;
+    }
+
+
+}
